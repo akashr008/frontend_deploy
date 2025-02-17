@@ -35,7 +35,6 @@ function Edashboard() {
           </Typography>
           <LogoutIcon
             sx={{ ml: "75%", color: 'black', cursor: 'pointer' }}
-            onClick={() =>{handleLogout(); navigate('/login');}}
           />
           <Typography
             sx={{
@@ -44,7 +43,7 @@ function Edashboard() {
               textDecoration: 'none',
               cursor: 'pointer',
             }}
-            onClick={handleLogout}
+          onClick={() =>{handleLogout(); navigate('/login');}}
           >
             Logout
           </Typography>
