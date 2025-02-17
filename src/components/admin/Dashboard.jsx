@@ -12,8 +12,6 @@ function Dashboard() {
 
   const handleLogout = () => {
     sessionStorage.clear();  
-    navigate('/login');   
-    window.location.replace('/login');
   };
 
   return (
