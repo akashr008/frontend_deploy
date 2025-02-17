@@ -14,7 +14,6 @@ function Edashboard() {
   // Handle logout
   const handleLogout = () => {
     sessionStorage.clear(); 
-    window.location.replace('/login');
   };
 
   return (
