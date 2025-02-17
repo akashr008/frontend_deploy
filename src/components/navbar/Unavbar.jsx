@@ -28,8 +28,7 @@ const Unavbar = () => {
   };
 
   const handleLogout = () => {
-    sessionStorage.clear(); 
-    window.location.replace('/login');
+    sessionStorage.clear();
   };
 
   return (
